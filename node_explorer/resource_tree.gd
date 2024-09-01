@@ -1,4 +1,5 @@
 extends Tree
+class_name ResourceTree
 
 @onready var prop_list: ItemList = get_parent().get_node("PropertyList")
 @onready var method_list: ItemList = get_parent().get_node("MethodList")
